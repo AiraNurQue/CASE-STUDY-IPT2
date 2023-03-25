@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+				<li><a href="#workexperience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+			<img src="student.jpg" alt="" width="300" height="300">
+            <p>Hi, my name is Aira and I am a BSIT student.</p>
+            <p>My hobbies are gaming and learning new things.</p>
+			<p></p>
+        </section>
+		
+		<section id= "workexperience">
+		<h2>Work Experience</h2>
+		<h3>Sutherland Global Services</h3>
+		<p>Performed customer service surveys</p>
+		<p>Assisted customers with a warm and professional attitude</p>
+		<p>Answered general questions</p>
+		<p>Answered calls from customers</p>
+		<p>Resolved customer information and complaints</p>
+		<p>Handled online orders and credit card transactions</p>
+		
+		<h3>Freelancer Ph</h3>
+		<p>Designing logos, posters, and website for clients</p>
+		
+		
+		</section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Information Technology from Tarlac State University</li>
+				<li>Information Computer Technology from Tarlac National High School</li>
+				
+            </ul>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Documenting</li>
+				<li>Customer Service</li>
+				<li>Graphic Designing</li>
+				<li>Prototyping</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023   <i>Aira Nur Q. Pasang <i/></p>
+    </footer>
+
+</body>
+</html>
